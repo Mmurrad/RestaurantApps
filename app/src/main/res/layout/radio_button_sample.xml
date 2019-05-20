@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash"
+        android:id="@+id/cash_id"
+        android:textSize="15sp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card"
+        android:layout_marginLeft="7dp"
+        android:id="@+id/card_id"
+        android:textSize="15sp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other(Payment)"
+        android:layout_marginLeft="7dp"
+        android:id="@+id/other_id"
+        android:textSize="15sp"/>
+
+</LinearLayout>

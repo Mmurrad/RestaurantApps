@@ -42,10 +42,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+
+        //item add button
         if(view.getId()==R.id.additem){
             Intent intent=new Intent(MainActivity.this,Add_Item_Activity.class);
             startActivity(intent);
         }
+
+        //search item button
+        if(view.getId()==R.id.searchitem){
+            Intent intent=new Intent(MainActivity.this,Search_Activity.class);
+            startActivity(intent);
+        }
+
+        //order button
         if(view.getId()==R.id.neworder){
             alertdialogbuilder=new AlertDialog.Builder(MainActivity.this);
 

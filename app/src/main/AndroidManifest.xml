@@ -19,7 +19,8 @@
         <activity android:name=".Activity.Add_Item_Activity" />
         <activity android:name=".Activity.Service_Activity" />
         <activity android:name=".Activity.Parcel_Activity" />
-        <activity android:name=".Activity.Homedelivery_Activity"></activity>
+        <activity android:name=".Activity.Homedelivery_Activity" />
+        <activity android:name=".Activity.Search_Activity"></activity>
     </application>
 
 </manifest>
